@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-auth-template",
+  "version": "1.0.0",
+  "description": "A simle template for apps that require authentication using nodejs, mongodb and express",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpiffGreen/nodejs-auth-template.git"
+  },
+  "keywords": [
+    "template",
+    "node-auth",
+    "nodejs",
+    "authentication",
+    "login",
+    "register",
+    "protected"
+  ],
+  "author": "Spiff Jekey-Green",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpiffGreen/nodejs-auth-template/issues"
+  },
+  "homepage": "https://github.com/SpiffGreen/nodejs-auth-template#readme"
+}
