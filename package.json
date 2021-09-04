@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "start": "node server.js"
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "doc": "jsdoc"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,12 @@
   "bugs": {
     "url": "https://github.com/SpiffGreen/nodejs-auth-template/issues"
   },
-  "homepage": "https://github.com/SpiffGreen/nodejs-auth-template#readme"
+  "homepage": "https://github.com/SpiffGreen/nodejs-auth-template#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.1"
+  }
 }
