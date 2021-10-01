@@ -14,6 +14,8 @@ app.use("/api/users", require("./routes/user"));
 app.use("/api/auth", require("./routes/auth"));
 
 let PORT = process.env.PORT || 5000;
+
+// Handle used port error here
 process.on("uncaughtException", (err) => {
     if(err.code == EADDRINUSE) {
         PORT++;
